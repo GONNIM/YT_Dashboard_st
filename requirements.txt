@@ -93,10 +93,10 @@ Pygments==2.18.0
 pylint==3.2.6
 pylint-venv==3.0.3
 pyls-spyder==0.4.0
-pyobjc-core==10.3.1
-pyobjc-framework-Cocoa==10.3.1
-pyobjc-framework-CoreServices==10.3.1
-pyobjc-framework-FSEvents==10.3.1
+pyobjc-core==10.3.1; sys_platform == 'darwin'
+pyobjc-framework-Cocoa==10.3.1; sys_platform == 'darwin'
+pyobjc-framework-CoreServices==10.3.1; sys_platform == 'darwin'
+pyobjc-framework-FSEvents==10.3.1; sys_platform == 'darwin'
 PyQt5==5.15.11
 PyQt5-Qt5==5.15.14
 PyQt5_sip==12.15.0
