@@ -8,9 +8,9 @@ Created on Sat Jul 27 21:54:48 2024
 
 import pandas as pd
 import numpy as np
-import plotly.graph_objects as go
-import plotly.express as px
-import streamlit as st
+import plotly.graph_objects as go # type: ignore
+import plotly.express as px # type: ignore
+import streamlit as st # type: ignore
 from datetime import datetime
 
 # define functions
